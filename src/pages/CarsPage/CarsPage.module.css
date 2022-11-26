@@ -1,0 +1,26 @@
+.cars_wrapper {
+  height: auto;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.cars_wrapper > h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cars_wrapper > ul {
+  list-style-position: inside;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 10px;
+}
